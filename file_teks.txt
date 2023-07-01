@@ -7,8 +7,10 @@ git push -u origin master
 lalu sinkronisasi dengan :
 git pull origin master
 
-untuk melakukan perubahan file teks lalu push:
-git add file_teks.txt (karena berubah pindah ke stage dulu untuk dicommit)
+bila  melakukan perubahan isi file teks (di lokal):
+save dulu perubahan tersebut pada file teks.
+git status (terlihat file_teks modified dgn warna merah belum masuk stage (antrian commit)
+git add file_teks.txt (memindah file revisi ke stage untuk dicommit)
 git commit -m "menambah tulisan pada file_teks.txt"
 git push -u origin master
 
