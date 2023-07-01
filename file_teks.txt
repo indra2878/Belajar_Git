@@ -8,5 +8,9 @@ lalu sinkronisasi dengan :
 git pull origin master
 
 untuk melakukan perubahan file teks lalu push:
-git add -m "menambah tulisan pada file_teks.txt"
+git add file_teks.txt (karena berubah pindah ke stage dulu untuk dicommit)
+git commit -m "menambah tulisan pada file_teks.txt"
 git push -u origin master
+
+lalu sinkronisasi:
+git pull origin master
