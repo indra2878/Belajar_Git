@@ -1,0 +1,12 @@
+Hallo sedang belajar git neh..
+
+setelah sempet error berhasil push dengan perintah berikut:
+git remote add origin https://github.com/indra2878/Belajar_Git.git
+git push -u origin master
+
+lalu sinkronisasi dengan :
+git pull origin master
+
+untuk melakukan perubahan file teks lalu push:
+git add -m "menambah tulisan pada file_teks.txt"
+git push -u origin master
